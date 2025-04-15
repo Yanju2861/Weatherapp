@@ -1,0 +1,18 @@
+create database EgyptMetereology;
+use EgyptMetereology;
+
+create table CairoMetereology (
+Weatherid int, Country varchar(10), City varchar(20), Temperature varchar(20),Humidity varchar(10));
+describe CairoMetereology;
+
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',301.49,'16%');
+select * from CairoMetereology;
+
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',303.41,'15%');
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',290.76,'62%');
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',289.63,'55%');
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',294.13,'35%');
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',290.76,'62%');
+insert into CairoMetereology (Weatherid,Country,City,Temperature,Humidity) values (1,'Egypt','Cairo',300.05,'22%');
+
+select * from CairoMetereology;
